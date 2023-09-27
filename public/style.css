@@ -166,3 +166,17 @@
     z-index: 9999; /* Ajusta según tus necesidades */
   }
   
+
+  .swal2-html-container{
+    font-size: 1.325em;
+    display: flex;
+    /* display: block; */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div:where(.swal2-container) .swal2-input {
+    height: 4.625em;
+    padding: 0 0.75em;
+    font-size: 1.325em;
+}
