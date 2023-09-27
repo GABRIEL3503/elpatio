@@ -1,5 +1,5 @@
 function loadMenuItems() {
-  fetch('http://localhost:3000/api/menu')
+  fetch('https://elpatio.onrender.com/api/menu')
     .then(response => response.json())
     .then(data => {
       const container = document.querySelector('.container'); // Obtener el contenedor
@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         // Crear el nuevo elemento en el servidor
-        fetch('http://localhost:3000/api/menu', {
+        fetch('https://elpatio.onrender.com/api/menu', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
